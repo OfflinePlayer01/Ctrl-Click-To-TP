@@ -22,8 +22,16 @@ else
 	_G.WRDClickTeleport = not _G.WRDClickTeleport
 	--Notify
 	if _G.WRDClickTeleport then
-		game.StarterGui:SetCore("SendNotification", {Title="WeAreDevs.net"; Text="Click teleport enabled"; Duration=5;})
+		    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Notification 〰";
+        Text = "〰 Ctrl + Click To TP Enabled 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 3;
 	else
-		game.StarterGui:SetCore("SendNotification", {Title="WeAreDevs.net"; Text="Click teleport disabled"; Duration=5;})
+		    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Notification 〰";
+        Text = "〰 Ctrl + Click To TP Disabled 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 3;
 	end
 end
