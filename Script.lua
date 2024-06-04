@@ -1,3 +1,9 @@
+		    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Script By WeAreDevs 〰";
+        Text = "〰 Link : wearedevs.net 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 3;
+
 if _G.WRDClickTeleport == nil then
 	_G.WRDClickTeleport = true
 	
