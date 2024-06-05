@@ -4,6 +4,12 @@
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
     Duration = 3;
 
+		    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Ctrl + Click To TP Script Loaded 〰";
+        Text = "〰 Enjoy :) 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 3;
+
 if _G.WRDClickTeleport == nil then
 	_G.WRDClickTeleport = true
 	
